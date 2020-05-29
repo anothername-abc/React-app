@@ -1,7 +1,7 @@
 # React-app
 
 Если говорить про логику приложения, то: 
-компонент "pages/Home.js" имеет хук "useReducer" с вынесеным reducer в отдельный файл "pages/reducer.js", useEffect, который сохраняет в localStorage массив "state" при изменении "state", и две callback-функции: "addNote", которую передаём в компонент "components/Form.js", и "deleteNote", которую передаём в компонент "Notes.js".
+компонент "pages/Home.js" имеет хук "useReducer" с вынесеным reducer в отдельный файл "pages/reducer.js; useEffect, который сохраняет в localStorage массив "state" при изменении "state"; и две callback-функции: "addNote", которую передаём в компонент "components/Form.js", и "deleteNote", которую передаём в компонент "Notes.js".
 
 Компонент формы вызывает функцию addNote передавая ей объект с полями содержащими ввёденный текст и дату, который потом добавляется к массиву "state".
 
